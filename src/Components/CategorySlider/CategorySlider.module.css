@@ -1,0 +1,16 @@
+/* CategorySlider.module.css */
+
+.slick-dots {
+    margin-top: 25px;
+    /* Adjust this value as needed */
+}
+
+.slick-dots li button:before {
+    color: #ccc;
+    /* Default dot color */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #000;
+    /* Active dot color */
+}
