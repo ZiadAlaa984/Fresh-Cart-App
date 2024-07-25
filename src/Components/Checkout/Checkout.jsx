@@ -23,7 +23,7 @@ export default function Checkout() {
             .required("Details are required")
     });
     const headers = {
-        token: localStorage.getItem('tokinUser')
+        token: localStorage.getItem('Token')
     };
     async function handleCheck(formValues) {
         setloading(true);
