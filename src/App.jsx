@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import Home from './Components/Home/Home';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
@@ -22,7 +21,6 @@ import ProtectAuthority from './Components/ProtectAuthority/ProtectAuthority';
 import CardContextProvider from './Context/CardContext';
 import ResetPassword from './Components/ResetPassword/ResetPassword';
 import Checkout from './Components/Checkout/Checkout';
-import AllOrders from './Components/AllOrders/AllOrders';
 import AllProducts from './Components/AllProducts/AllProducts';
 
 
@@ -52,8 +50,6 @@ const router = createBrowserRouter([
     ]
   }
 ]);
-const queryClient = new QueryClient();
-
 function App() {
   return (
     <>
